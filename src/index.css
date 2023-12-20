@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-a46730 {
+  color: #a46730; 
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #e1b78c 0.89%,
+    #d9a875 17.23%,
+    #c78e5a 42.04%,
+    #b57b45 55.12%,
+    #a46730 71.54%, 
+    #804316 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: conic-gradient(
+    from 225deg,
+    #e1b78c 0deg,
+    #d9a875 60deg,
+    #c78e5a 120deg,
+    #b57b45 180deg,
+    #a46730 240deg, 
+    #804316 300deg,
+    #804316 360deg
+  );
+}
